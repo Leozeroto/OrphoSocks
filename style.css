@@ -1,8 +1,30 @@
-body {
+html {
+    background-color: #DDC3D0;
+    font-family: source sans pro;
+}
+
+h1 {
+    font-family: cairo;
+}
+
+.navbar {
     background-color: #DDC3D0;
 }
 
-.img1 {
-    width: 50px;
-    border-radius: 20px;
+#nous {
+    padding: 5% 0;
+    background-color: #B7A196;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    border-radius: 100px;
+    filter: grayscale(50%);
+}
+
+#reve {
+    text-align: center;
+    padding: 80px 0;
+    background-color: #DDC3D0;
 }
