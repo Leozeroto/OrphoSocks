@@ -3,6 +3,10 @@ html {
     font-family: signika;
 }
 
+.nav-link, .navbar-brand {
+    color: black;
+}
+
 h1 {
     font-family: source sans pro;
 }
@@ -22,14 +26,17 @@ h2 {
     text-align: center;
 }
 
-img {
+.img1 {
     width: 200px;
     border-radius: 100px;
     filter: grayscale(50%);
 }
 
-.img1 {
+.img2 {
+    width: 200px;
+    border-radius: 100%;
     padding: 5% 0 0 0;
+    filter: grayscale(60%);
 }
 
 #reve {
