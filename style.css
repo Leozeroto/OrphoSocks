@@ -1,9 +1,13 @@
 html {
     background-color: #DDC3D0;
-    font-family: source sans pro;
+    font-family: signika;
 }
 
 h1 {
+    font-family: source sans pro;
+}
+
+h2 {
     font-family: cairo;
 }
 
@@ -13,6 +17,7 @@ h1 {
 
 #nous {
     padding: 5% 0;
+    margin: 5% 0 0 0;
     background-color: #B7A196;
     text-align: center;
 }
@@ -23,8 +28,12 @@ img {
     filter: grayscale(50%);
 }
 
+.img1 {
+    padding: 5% 0 0 0;
+}
+
 #reve {
     text-align: center;
-    padding: 80px 0;
+    padding: 5% 0;
     background-color: #DDC3D0;
 }
