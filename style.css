@@ -19,17 +19,15 @@ h2 {
     background-color: #DDC3D0;
 }
 
-#nous {
-    padding: 5% 0;
-    margin: 5% 0 0 0;
-    background-color: #B7A196;
-    text-align: center;
+#premiereligne {
+    padding: 10px 0;
 }
 
 .img1 {
-    width: 200px;
-    border-radius: 100px;
+    width: 300px;
+    border-radius: 100%;
     filter: grayscale(50%);
+    margin: 5% 0;
 }
 
 .img2 {
@@ -39,8 +37,38 @@ h2 {
     filter: grayscale(60%);
 }
 
+.img3 {
+    width: 100px;
+}
+
 #reve {
     text-align: center;
     padding: 5% 0;
     background-color: #DDC3D0;
+}
+
+
+.card {
+    box-shadow: 5px 5px 5px grey;
+    border: 1px solid;  
+      
+
+}
+
+.btn {
+    border: 1px solid;
+}
+
+#noustrouver {
+    background-color: #B7A196;
+    text-align: center;
+    padding: 5% 0;
+
+}
+
+.img6 {
+    width: 50px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
 }
