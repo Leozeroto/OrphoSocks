@@ -3,8 +3,24 @@ html {
     font-family: signika;
 }
 
+.href {
+    color: black;
+
+}
+
+.href:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar {
+    border-radius: 0 0 10% 10%;
+
+}
+
 .nav-link, .navbar-brand {
     color: black;
+
 }
 
 h1 {
@@ -20,14 +36,13 @@ h2 {
 }
 
 #premiereligne {
-    padding: 10px 0;
+    margin: 5% 0;
 }
 
 .img1 {
     width: 300px;
     border-radius: 100%;
     filter: grayscale(50%);
-    margin: 5% 0;
 }
 
 .img2 {
@@ -45,11 +60,14 @@ h2 {
     text-align: center;
     padding: 5% 0;
     background-color: #DDC3D0;
+    border-radius: 10%;
+    box-shadow: 5px 5px 5px grey;
+
 }
 
 
 .card {
-    box-shadow: 5px 5px 5px grey;
+    box-shadow: 10px 5px 5px grey;
     border: 1px solid;  
       
 
@@ -63,6 +81,9 @@ h2 {
     background-color: #B7A196;
     text-align: center;
     padding: 5% 0;
+    border-radius: 10%;
+    box-shadow: 5px 5px 5px grey;
+
 
 }
 
