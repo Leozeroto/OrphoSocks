@@ -8,12 +8,12 @@ html {
 
 }
 
-.href:hover {
+.href:hover, .nav-link:hover, .navbar-brand:hover {
     text-decoration: none;
-    color: black;
+    color: #B7A196;
 }
 
-.navbar {
+.header {
     border-radius: 0 0 10% 10%;
 
 }
@@ -50,6 +50,7 @@ h2 {
     border-radius: 100%;
     padding: 5% 0 0 0;
     filter: grayscale(60%);
+    
 }
 
 .img3 {
@@ -65,6 +66,9 @@ h2 {
 
 }
 
+#card {
+    margin: 5% 0;
+}
 
 .card {
     box-shadow: 10px 5px 5px grey;
@@ -83,8 +87,15 @@ h2 {
     padding: 5% 0;
     border-radius: 10%;
     box-shadow: 5px 5px 5px grey;
+}
 
+.iframe {
+    box-shadow: 5px 5px 5px grey;
 
+}
+
+.iframe:hover {
+    box-shadow: 20px 20px 20px grey;
 }
 
 .img6 {
@@ -92,4 +103,11 @@ h2 {
     position: fixed;
     bottom: 10px;
     right: 10px;
+}
+
+.footer {
+    padding: 5% 0;
+    border-radius: 10% 10% 0 0;
+    color: #857E61;
+
 }
