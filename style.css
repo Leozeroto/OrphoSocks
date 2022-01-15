@@ -108,6 +108,12 @@ h2 {
         border: 1px solid;  
     }
     
-   
+    .footer {
+        border-radius: 10% 10% 0 0;
+    }
+
+    .iframe:hover {
+        box-shadow: 20px 20px 20px grey;
+    }
     
 }
