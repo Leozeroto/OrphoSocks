@@ -8,6 +8,10 @@ html {
 
 }
 
+p {
+    font-family: signika;
+}
+
 .href:hover, .nav-link:hover, .navbar-brand:hover {
     text-decoration: none;
     color: #B7A196;
@@ -123,3 +127,19 @@ h2 {
     }
     
 }
+
+table {
+    border: 2px solid;
+    border-collapse: collapse;
+    padding: 10px;
+    margin: 5% 0;
+    text-align: center;
+}
+
+td {
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+}
+
