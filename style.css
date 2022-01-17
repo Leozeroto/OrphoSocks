@@ -34,6 +34,17 @@ h2 {
     background-color: #DDC3D0;
 }
 
+.img0 {
+    position: relative;
+
+}
+
+.recherche {
+    position: absolute;
+    top: 40%;
+    left: 30%;  
+}
+
 #premiereligne {
     margin: 5% 0;
 }
