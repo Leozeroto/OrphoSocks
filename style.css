@@ -36,17 +36,31 @@ h2 {
 
 .img0 {
     position: relative;
+    margin: 1% 0 0 0;
+    filter: grayscale(20%);
 
 }
 
 .recherche {
     position: absolute;
-    top: 40%;
-    left: 30%;  
+    top: 80%;
+    left: 8%;      
+    padding: 1% 1%;
+    background-color: white;
+}
+
+.btnconnect {
+    background-color: #857E61;
+    color: white;
+}
+
+.btnevent {
+    background-color: #B7A196;
+    color: white;
 }
 
 #premiereligne {
-    margin: 5% 0;
+    margin: 10% 0;
 }
 
 .img1 {
@@ -87,6 +101,7 @@ h2 {
     background-color: #B7A196;
     text-align: center;
     padding: 5% 0;
+    margin: 10% 0;
     
 }
 
