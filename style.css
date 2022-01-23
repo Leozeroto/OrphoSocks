@@ -39,13 +39,6 @@ h2 {
     background-color: white;
 }
 
-.img0 {
-    position: relative;
-    margin: 1% 0 0 0;
-    filter: grayscale(20%);
-
-}
-
 .recherche {
     position: absolute;
     top: 80%;
@@ -83,7 +76,10 @@ h2 {
 }
 
 .img3 {
-    width: 100px;
+    width: 200px;
+    border-radius: 100%;
+    filter: grayscale(60%);
+    filter: brightness(1.4);
 }
 
 #reve {
@@ -163,7 +159,7 @@ h2 {
         color: #B7A196;
     }
 
-    .img6 {
+    .img8 {
         width: 50px;
         position: fixed;
         bottom: 30px;
